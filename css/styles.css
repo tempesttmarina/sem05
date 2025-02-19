@@ -43,6 +43,11 @@ body {
 /*------------------------------------------------------------------------------
    Modules
 ------------------------------------------------------------------------------*/
+/* ===== Numéro 3f ===== */
+
+header {
+    padding: 20px 0;
+}
 
 /* ===== Numéro 3a ===== */
 header .wrapper {
@@ -78,6 +83,8 @@ header .wrapper {
     font: bold 0.875 'PT Sans', sans-serif;
     color: #000;
     padding: 5px 10px;
+    border: 2px solid transparent;
+
 
     /*Text ne peut pas être raccourci*/
     text-transform: uppercase;
@@ -89,55 +96,41 @@ header .wrapper {
 /* ===== Numéro 3e ===== */
 
 .menu a:hover {
-
     border: 2px solid #000;
 }
 
 
-/* ===== Numéro 3f ===== */
-/*
-header {
-    padding-top: 20px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 20px;
-}
-*/
+
 
 /* ===== Numéro 4a ===== */
-/*
+
 .hero {
-    background-image: url('../images/hero.jpg');
-    background-position: center right;
-    background-repeat: no-repeat;
+    background: url('../images/hero.jpg') no-repeat center right/cover;
 }
-*/
+
 
 /* ===== Numéro 4b ===== */
 .hero .wrapper {
-
+    display: flex;
+    min-height: 650px;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* ===== Numéro 4c ===== */
 .hero .contenu {
-
+    max-width: 50%;
+    color: #FFF;
 }
 
 /* ===== Numéro 4d ===== */
-/*
-.hero h1 {
-    font-weight: 100;
-    font-size: 100px;
-    line-height: 100%;
 
-    font-family: Nunito, sans-serif;
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
+.hero h1 {
+    font:  100 6.25rem/100% 'Nunito', sans-serif;
+    margin: 0 0 20px;
     color: #F2545B;
 }
-*/
+
 
 /* ===== Numéro 5a ===== */
 /*
