@@ -172,38 +172,42 @@ header .wrapper {
 
 /* ===== Numéro 6a ===== */
 footer {
-
+    background: #000;
 }
-
-footer .wrapper {
-
+footer .wrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 0;
 }
-
 /* ===== Numéro 6b ===== */
-/*
-.menu-social {
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-    margin-right: 0;
 
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+.menu-social {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
-*/
+
 
 
 /* ===== Numéro 6c ===== */
 
-footer .wrapper .menu-social a {
+.menu-social a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    color: #FFF;
+    background: #F2545b ;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
 }
 
 /* ===== Numéro 6d ===== */
-/*
+
 .menu-social a:hover {
     background: gray;
 }
-*/
