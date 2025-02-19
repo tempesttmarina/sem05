@@ -17,10 +17,11 @@ html {
 
 /* ===== Numéro 1 ===== */
 body {
-    font-family: 'PT Sans', sans-serif;
+    /*font-family: 'PT Sans', sans-serif;
     font-weight: normal;
     font-size: 18px;
-    line-height: 160%;
+    line-height: 160%;*/
+    font: normal 1.25rem/160% 'PT Sans', sans-serif;
 }
 
 
@@ -31,10 +32,11 @@ body {
 /* ===== Numéro 2 ===== */
 .wrapper {
     max-width: 1100px;
-    margin-left: auto;
+   /* margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0;*/
+    margin: 0 auto;
 }
 
 
@@ -44,62 +46,53 @@ body {
 
 /* ===== Numéro 3a ===== */
 header .wrapper {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* ===== Numéro 3b ===== */
 .logo {
-
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font: 700 2.5rem 'Nunito', sans-serif;
+    text-decoration: none;
+    color: #444;
 }
 
 /* ===== Numéro 3c ===== */
-/*
-.menu ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
 
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-right: 0;
-    padding-left: 0;
+.menu ul {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-*/
+
 
 /* ===== Numéro 3d ===== */
-/*
+
 .menu a {
-    color: black;
-    font-weight: bold;
-    font-size: 14px;
-    font-family: 'PT Sans', sans-serif;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    font: bold 0.875 'PT Sans', sans-serif;
+    color: #000;
+    padding: 5px 10px;
+
+    /*Text ne peut pas être raccourci*/
     text-transform: uppercase;
     text-decoration: none;
+
 }
-*/
+
 
 /* ===== Numéro 3e ===== */
-/*
+
 .menu a:hover {
-    border-top-color: #000;
-    border-right-color: black;
-    border-bottom-color: #000;
-    border-left-color: black;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-left-style: solid;
-    border-bottom-style: solid;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
+
+    border: 2px solid #000;
 }
-*/
+
 
 /* ===== Numéro 3f ===== */
 /*
